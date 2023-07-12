@@ -1,0 +1,315 @@
+/* header section start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-conatiner{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-around;
+    background-color: rgb(237, 192, 200);
+    gap: 5px;
+}
+.header-flower{
+    width: 300px;
+    height: 400px;
+    padding-left: 20px;
+
+    
+
+}
+
+.header-info{
+    width: 400px;
+}
+.header-info{
+flex-direction: column;
+
+}
+.btn-primary{
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #E55473;
+    border: none;
+}
+.discraption{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: small;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+ /* header section end*/
+
+
+
+ /* bonus container  */
+
+.bonus-container {
+    width: 1440px;
+    height: 720px;
+    /* border: 3px solid red; */
+    margin: auto;
+
+}
+
+.bonus-section-header {
+    text-align: center;
+    font-size: 70px;
+}
+
+.bonus-section-disc {
+    text-align: center;
+    font-size: 25px;
+}
+
+.bonus-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.bonus-img {
+    width: 364px;
+    height: 438px;
+    background-image: url('../images/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-position: center;
+    border-radius: 250px 250px 0 0;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding-right: 15px;
+
+}
+
+.bonus-img-name {
+    margin-top: 20px;
+}
+
+.bonus-img-2 {
+    width: 364px;
+    height: 438px;
+    background-image: url('../images/pngwing\ 5.png');
+    background-repeat: no-repeat;
+
+    background-color: rgb(178, 209, 199);
+    background-position: center;
+    border-radius: 250px 250px 0 0;
+    text-align: center butt;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.bonus-img-3 {
+    width: 364px;
+    height: 438px;
+    background-image: url('../images/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-color: rgb(117, 141, 117);
+    background-position: center;
+    border-radius: 250px 250px 0 0;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+.photo-img{
+    width: 300px;
+}
+.hot-deal{
+
+    height: 100px vh;
+    border: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px solid;
+    background: rgba(229, 84, 115, 0.05);
+    padding:right 50px;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+
+}
+
+.text-container{
+    width: 500px;
+}
+.letter{
+    color: palevioletred;
+}
+.section-one-discription{
+    padding-top: 25px;
+}
+.btnn-section{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    border: 0px;
+     background-color: palevioletred;
+     margin-top: 10px;
+    
+
+}
+
+
+
+/*instagram function here */
+
+.insta-section {
+    width: 1440px;
+    height: 600px;
+
+    padding: 60px;
+    margin: auto;
+
+}
+
+.insta-heading {
+    font-size: 60px;
+
+    text-align: center;
+}
+
+.insta-ditls {
+    text-align: center;
+    font-size: 25px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.img {
+    background-image: url("../images/Flower\ 01.png");
+    width: 342px;
+    height: 396px;
+}
+
+.img-2 {
+    background-image: url("../images/Rectangle\ 4.png");
+    width: 342px;
+    height: 396px;
+}
+
+.img-3 {
+    background-image: url("../images/Rectangle\ 5.png");
+    width: 342px;
+    height: 396px;
+}
+
+.img-4 {
+    background-image: url("../images/Rectangle\ 6.png");
+    width: 342px;
+    height: 396px;
+}
+
+/* deals-section staert  */
+
+.deals-section {
+    width: 1440px;
+    height: 600px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.deals-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    padding-top: 100px;
+}
+
+.deals-ditls {
+    text-align: center;
+}
+
+.input-email {
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 400px;
+}
+
+.bttn {
+    width: 190px;
+    height: 70px;
+    background-color: pink;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* footer section start */
+.footer-container{
+    /* width: 600px; */
+    height: 449px;
+    background: #111010;
+    
+    }
+    .footer-info{
+       
+    font-family: Lato;
+    text-align: center;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.90);
+    padding-top: 40px;
+    
+    
+    }
+    .footer-descriptsion{
+        font-size: 15px;
+        font-style: normal;
+        
+        
+      
+    
+    }
+    .footer-dateline{
+
+        font-family: Lato;
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+    .headline{
+        color: #E55473;
+    }
+    
+    
+    
+     /* footer section end */
