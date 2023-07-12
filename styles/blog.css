@@ -1,8 +1,34 @@
 /* header section start */
+
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+
+.menus {
+    display: flex;
+    background-color: rgb(121, 88, 60);
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.icon-img {
+    height: 50px;
+}
+
+.menus-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+    color: white;
+    font-size: 30px;
+}
+
 .header-conatiner{
     display: flex;
     align-items: center;
